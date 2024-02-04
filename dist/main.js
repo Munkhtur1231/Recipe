@@ -1,0 +1,1 @@
+(()=>{console.log("too: 12");let o=[1,2,3].map((o=>o+1));console.log(o)})();
