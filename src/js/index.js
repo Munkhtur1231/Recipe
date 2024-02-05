@@ -1,4 +1,6 @@
+require("@babel/polyfill");
 import "../css/style.css";
-import { add, multiply } from "./view/searchView";
+import Search from "./model/Search";
 
-console.log(add(25, 50));
+let search = new Search("pasta");
+search.doSearch().then((r) => console.log(r));
